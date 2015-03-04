@@ -15,8 +15,8 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="animation.svg"
+   inkscape:version="0.91 r"
+   sodipodi:docname="calendar-today.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -27,11 +27,11 @@
      pagecolor="#8c8c8c"
      bordercolor="#ff5e00"
      borderopacity="1"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.328321"
-     inkscape:cx="-2.0714274"
-     inkscape:cy="11.7026"
+     inkscape:zoom="20.594485"
+     inkscape:cx="-18.645247"
+     inkscape:cy="11.805774"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -39,14 +39,14 @@
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
      inkscape:window-height="875"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-x="-1"
+     inkscape:window-y="24"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="true"
+     inkscape:object-nodes="false"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -89,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -130,20 +130,18 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
-       style="fill:#666666;fill-opacity:1"
-       d="m 20,286 -10,0 0,10 10,0 z"
-       id="rect3357"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="opacity:0.5;fill:#666666;fill-opacity:1"
-       d="m 17,283 0,2 -8,0 0,8 -2,0 0,-10 10,0 z"
-       id="path3012"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:0.2;fill:#666666;fill-opacity:1"
-       d="m 14,280 0,2 -8,0 0,8 -2,0 0,-10 10,0 z"
-       id="path3014"
-       inkscape:connector-curvature="0" />
+       style="opacity:1;fill:#2a4a79;fill-opacity:1;stroke:none"
+       d="M 5 1 C 2.784 1 1 2.784 1 5 L 1 19 C 1 21.216 2.784 23 5 23 L 19 23 C 21.216 23 23 21.216 23 19 L 23 5 C 23 2.784 21.216 1 19 1 L 5 1 z M 5.0976562 2 L 19.097656 2 C 20.759656 2 22.097656 3.338 22.097656 5 L 22.097656 19 C 22.097656 20.662 20.759656 22 19.097656 22 L 5.0976562 22 C 3.4356563 22 2.0976562 20.662 2.0976562 19 L 2.0976562 5 C 2.0976562 3.338 3.4356563 2 5.0976562 2 z "
+       transform="translate(0,276)"
+       id="rect3005" />
+    <rect
+       style="opacity:1;fill:#6598cb;fill-opacity:1;stroke:none"
+       id="rect3003"
+       width="20"
+       height="20"
+       x="2.0971134"
+       y="278"
+       ry="3"
+       rx="3" />
   </g>
 </svg>
