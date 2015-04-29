@@ -1,5 +1,7 @@
 ###A theme for cinnamon __2.4__
 
+Inspired by the [zuki themes](https://github.com/lassekongo83/zuki-themes).
+
 ---
 
 ####Installation
