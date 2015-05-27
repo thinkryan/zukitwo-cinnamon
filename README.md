@@ -1,4 +1,4 @@
-###A theme for cinnamon __2.4__
+###A theme for cinnamon _2.6_
 
 Inspired by the [zuki themes](https://github.com/lassekongo83/zuki-themes).
 
