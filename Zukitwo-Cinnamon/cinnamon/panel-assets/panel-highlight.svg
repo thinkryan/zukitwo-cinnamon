@@ -16,7 +16,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="DND-panel-top-right.svg"
+   sodipodi:docname="panel-highlight.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -30,7 +30,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="24.582394"
-     inkscape:cx="20.595062"
+     inkscape:cx="3.618643"
      inkscape:cy="11.754018"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -130,19 +130,11 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       style="opacity:0.8;fill:#3e7ab6;fill-opacity:1;stroke:none"
+       style="opacity:0.8;fill:#8198af;fill-opacity:1;stroke:none"
        id="rect5315"
        width="24"
        height="24"
        x="8.8817842e-16"
        y="276" />
-    <rect
-       style="opacity:0.25;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new"
-       id="rect3230"
-       width="24"
-       height="1"
-       x="-300"
-       y="8.8817842e-16"
-       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

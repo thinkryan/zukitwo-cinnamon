@@ -13,11 +13,13 @@
     border-image: url("background-assets/popup.svg") 7;
     color: $text-primary;
     padding: 6px;
-    font-size: 12px;
+    font-size: 10pt;
     font-weight: bold;
 
     .item-box {
         padding: 10px;
+
+        StLabel { padding-top: .4em; }
 
         &:selected {
             border-image: url("background-assets/hover.svg") 7;

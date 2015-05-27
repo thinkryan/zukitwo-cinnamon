@@ -14,9 +14,12 @@
     &.panel-bottom {
         box-shadow: 0 -1px rgba(255, 255, 255, .2);
     }
+
+    &:highlight {
+        border-image: url("panel-assets/panel-highlight.svg") 4;
+    }
 }
 
-/* panel edit mode */
 // Top & bottom panels use different images
 @each $v in panel-top, panel-bottom {
     .#{$v} {
@@ -31,6 +34,13 @@
         }
     }
 }
+
+.panel-dummy {
+    background-color: alpha($accent, .8);
+
+    &:entered { background-color: darken($accent, 5%); }
+}
+
 
 /* This styles the systray items */
 .panel-status-button {

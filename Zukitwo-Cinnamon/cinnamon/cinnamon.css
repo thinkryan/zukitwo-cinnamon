@@ -270,6 +270,15 @@ StScrollBar StButton#hhandle:focus {
   -arrow-rise: 8px;
   -boxpointer-gap: 2px;
 }
+.popup-menu-content {
+  border-image: url("background-assets/popup-inside.svg") 9;
+  padding: .7em 0;
+  color: rgba(0, 0, 0, 0.85);
+}
+.popup-menu-icon, .popup-menu StIcon {
+  icon-size: 16px;
+  color: #2c2c2c;
+}
 .popup-menu-item {
   padding: .4em 1.3em;
   spacing: .8em;
@@ -278,21 +287,12 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("background-assets/hover.svg") 9;
   color: white;
 }
+.popup-menu-item:active .popup-menu-icon, .popup-menu-item:active StIcon {
+  color: #fff;
+}
 .popup-menu-item:insensitive {
   font-weight: normal;
   color: rgba(0, 0, 0, 0.15);
-}
-.popup-menu-item:active .popup-menu-icon {
-  color: #fff;
-}
-.popup-menu-content {
-  border-image: url("background-assets/popup-inside.svg") 9;
-  padding: .7em 0;
-  color: rgba(0, 0, 0, 0.85);
-}
-.popup-menu-icon {
-  icon-size: 16px;
-  color: #2c2c2c;
 }
 .popup-menu-item-dot {
   /*!*/
@@ -305,12 +305,9 @@ StScrollBar StButton#hhandle:focus {
   padding: 12px 0;
   color: rgba(0, 0, 0, 0.85);
 }
-.popup-sub-menu .popup-menu-item {
-  padding-left: 2.1em;
-}
 .popup-sub-menu .popup-menu-item:active {
   border-image: url("background-assets/hover.svg") 9;
-  color: rgba(0, 0, 0, 0.85);
+  color: white;
 }
 
 .popup-submenu-menu-item:open {
@@ -379,8 +376,10 @@ StScrollBar StButton#hhandle:focus {
 #panel.panel-bottom {
   box-shadow: 0 -1px rgba(255, 255, 255, 0.2);
 }
+#panel:highlight {
+  border-image: url("panel-assets/panel-highlight.svg") 4;
+}
 
-/* panel edit mode */
 .panel-top #panelLeft:dnd {
   border-image: url("panel-assets/DND-panel-top-left.svg") 4;
 }
@@ -399,6 +398,13 @@ StScrollBar StButton#hhandle:focus {
 }
 .panel-bottom #panelRight:dnd {
   border-image: url("panel-assets/DND-panel-bottom-right.svg") 4;
+}
+
+.panel-dummy {
+  background-color: rgba(62, 122, 182, 0.8);
+}
+.panel-dummy:entered {
+  background-color: #386da3;
 }
 
 /* This styles the systray items */
@@ -707,11 +713,14 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("background-assets/popup.svg") 7;
   color: rgba(0, 0, 0, 0.85);
   padding: 6px;
-  font-size: 12px;
+  font-size: 10pt;
   font-weight: bold;
 }
 .switcher-list .item-box {
   padding: 10px;
+}
+.switcher-list .item-box StLabel {
+  padding-top: .4em;
 }
 .switcher-list .item-box:selected {
   border-image: url("background-assets/hover.svg") 7;
@@ -1009,13 +1018,13 @@ StScrollBar StButton#hhandle:focus {
 .calendar-work-day {
   border-image: url("misc-assets/calendar-work-day.svg") 6;
   border: none;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .calendar-nonwork-day {
   border-image: url("misc-assets/calendar-nonwork-day.svg") 6;
   border: none;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .calendar-today {
@@ -1392,15 +1401,29 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
-   ! Snap/Tile OSD
-   ===================================================================*/
-.snap-osd {
-  border-image: url("background-assets/popup.svg") 9;
-  font-size: 12pt;
-  font-weight: bold;
-  padding: 14px;
-  color: rgba(0, 0, 0, 0.85);
+ * ! OSD
+ * ===================================================================*/
+.info-osd {
   text-align: center;
+  font-weight: bold;
+  spacing: 1em;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  border-image: url("background-assets/popup.svg") 7;
+}
+
+.osd-window {
+  spacing: 1em;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  border-image: url("background-assets/popup.svg") 10;
+}
+.osd-window StIcon {
+  color: #2c2c2c;
+}
+.osd-window .level {
+  height: 5px;
+  color: #3e7ab6;
 }
 
 /* ===================================================================
@@ -1412,6 +1435,16 @@ StScrollBar StButton#hhandle:focus {
 
 .magnifier-zoom-region.full-screen {
   border: none;
+}
+
+/* ===================================================================
+ * ! Tile Previews
+ * ===================================================================*/
+.tile-preview, .tile-hud {
+  background-color: rgba(34, 34, 34, 0.6);
+}
+.tile-preview.snap, .tile-hud.snap {
+  background-color: rgba(62, 122, 182, 0.8);
 }
 
 /* ===================================================================

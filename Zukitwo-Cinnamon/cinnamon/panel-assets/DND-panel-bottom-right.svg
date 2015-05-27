@@ -15,8 +15,8 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="DND-top-right.svg"
+   inkscape:version="0.91 r"
+   sodipodi:docname="DND-panel-bottom-right.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -27,10 +27,10 @@
      pagecolor="#8c8c8c"
      bordercolor="#ff5e00"
      borderopacity="1"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="24.582394"
-     inkscape:cx="9.2527566"
+     inkscape:cx="20.595062"
      inkscape:cy="11.754018"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -38,7 +38,7 @@
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="821"
+     inkscape:window-height="846"
      inkscape:window-x="0"
      inkscape:window-y="25"
      width="400px"
@@ -89,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -130,7 +130,7 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       style="opacity:0.77999998;fill:#4e6772;fill-opacity:1;stroke:none"
+       style="opacity:0.8;fill:#3e7ab6;fill-opacity:1;stroke:none"
        id="rect5315"
        width="24"
        height="24"

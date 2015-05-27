@@ -16,6 +16,17 @@
         -boxpointer-gap: 2px;
     }
 
+    &-content {
+        border-image: url("background-assets/popup-inside.svg") 9;
+        padding: .7em 0;
+        color: $text-primary;
+    }
+
+    &-icon, StIcon {
+        icon-size: 16px;
+        color: $icon-primary;
+    }
+
     &-item {
         padding: .4em 1.3em;
         spacing: .8em;
@@ -23,27 +34,16 @@
         &:active {
             border-image: url("background-assets/hover.svg") 9;
             color: $text-primary-invert;
+
+            .popup-menu-icon, StIcon {
+                color: $icon-primary-invert;
+            }
         }
 
         &:insensitive {
             font-weight: normal;
             color: $text-disabled;
         }
-
-        &:active .popup-menu-icon {
-            color: $icon-primary-invert;
-        }
-    }
-
-    &-content {
-        border-image: url("background-assets/popup-inside.svg") 9;
-        padding: .7em 0;
-        color: $text-primary;
-    }
-
-    &-icon {
-        icon-size: 16px;
-        color: $icon-primary;
     }
 
     &-item-dot {/*!*/}
@@ -57,13 +57,9 @@
     padding: 12px 0;
     color: $text-primary;
 
-    .popup-menu-item {
-        padding-left: 2.1em;
-    }
-
     .popup-menu-item:active {
         border-image: url("background-assets/hover.svg") 9;
-        color: $text-primary;
+        color: $text-primary-invert;
     }
 }
 
