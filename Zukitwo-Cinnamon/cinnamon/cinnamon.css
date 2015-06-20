@@ -989,22 +989,12 @@ StScrollBar StButton#hhandle:focus {
   background-image: url("widget-assets/calendar-arrow-right-hover.svg");
 }
 
-.calendar-week-number {
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 8pt;
-  font-weight: normal;
-  height: 16px;
-  width: 12px;
-  padding-top: 8px;
-  padding-right: 6px;
-}
-
 .calendar-day-base {
   font-size: 8pt;
   font-weight: bold;
   text-align: center;
-  width: 29px;
-  height: 29px;
+  width: 2.3em;
+  height: 2.7em;
 }
 
 .calendar-day-heading {
@@ -1012,7 +1002,7 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(0, 0, 0, 0.85);
   padding-top: 9px;
   padding-bottom: 6px;
-  height: 15px;
+  height: 1.5em;
 }
 
 .calendar-work-day {
@@ -1031,13 +1021,22 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("misc-assets/calendar-today.svg") 6;
   color: white;
   font-weight: bold;
-  font-size: 9pt;
 }
 
 .calendar-other-month-day {
   border-image: url("misc-assets/calendar-other-month-day.svg") 6;
   color: rgba(0, 0, 0, 0.15);
   font-weight: normal;
+}
+
+.calendar-week-number {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 8pt;
+  font-weight: normal;
+  height: 1.6em;
+  width: 1.2em;
+  padding-top: 8px;
+  padding-right: 6px;
 }
 
 /* ===================================================================
