@@ -900,7 +900,6 @@ StScrollBar StButton#hhandle:focus {
    ! Run dialog
    ===================================================================*/
 .run-dialog > * {
-  border-image: url("background-assets/popup.svg") 7;
   padding: 10px;
 }
 
@@ -913,8 +912,16 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .run-dialog-error-box {
-  padding: 10px 2px 2px 2px;
-  spacing: 5px;
+  padding: 12px 4px 6px 4px;
+  spacing: 1em;
+  color: rgba(237, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.run-dialog-error-box StIcon {
+  width: 16px;
+  height: 16px;
+  color: rgba(237, 0, 0, 0.7);
 }
 
 .run-dialog-completion-box {
