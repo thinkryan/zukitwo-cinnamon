@@ -15,7 +15,7 @@ stage {
     text-decoration: underline;
 
     &:hover {
-        color: invert($accent);
+        color: $info-text;
     }
 }
 

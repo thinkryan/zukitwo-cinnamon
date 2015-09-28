@@ -13,7 +13,7 @@ stage {
 }
 
 .cinnamon-link:hover {
-  color: #c18549;
+  color: rgba(255, 98, 19, 0.9);
 }
 
 .label-shadow {

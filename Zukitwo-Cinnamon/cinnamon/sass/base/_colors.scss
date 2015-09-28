@@ -3,25 +3,25 @@ $text-primary:   alpha(#000, .85);
 $text-secondary: alpha(#000, .45);
 $text-disabled:  alpha(#000, .15);
 
-$text-primary-invert: alpha(#fff, 1);
+$text-primary-invert:   alpha(#fff, 1);
 $text-secondary-invert: alpha(#fff, .6);
 
-// ------------------------------------------------------------
 
-// Symbolic icons don't work with alpha values.
-// Because of this, grey symbolic icons use hex values.
+// Grey icons use hex values.
 $icon-primary:   #2c2c2c;
 $icon-secondary: #777;
 $icon-disabled:  #ccc;
 
-$icon-primary-invert: #fff;
+$icon-primary-invert:   #fff;
 $icon-secondary-invert: #ccc;
 
-// ------------------------------------------------------------
 
+// Misc colors
 $accent: #3e7ab6;
+$accent-text: saturate(darken($accent, 20%), 20%);
 
-// ------------------------------------------------------------
+$info: #ff9c6a;
+$info-text: alpha(saturate(darken($info, 17%), 100%), .9);
 
-// The following selectors use modified/different colors:
-//  .cinnamon-link
+$warning: #e86b6b;
+$warning-text: alpha(saturate(darken($warning, 20%), 100%), .7);
