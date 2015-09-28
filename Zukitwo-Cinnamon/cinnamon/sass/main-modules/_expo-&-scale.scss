@@ -109,7 +109,7 @@
 .window-close {
     background-image: url("widget-assets/close.svg");
     background-size: 41px 61px;
-    @include size(41px, 48px);
+    @include size(41px, 49px);
     -cinnamon-close-overlap: 24px;
 
     &:hover {
