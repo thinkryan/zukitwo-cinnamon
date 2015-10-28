@@ -89,7 +89,7 @@ StScrollBar StButton#hhandle:focus {
   width: 220px;
   font-size: 10pt;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .popup-menu StEntry:focus, .popup-menu StEntry:active, .popup-menu StEntry:pressed,
@@ -1022,7 +1022,7 @@ StScrollBar StButton#hhandle:focus {
 
 .about-uuid {
   font-size: 9pt;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .about-description {
@@ -1216,7 +1216,7 @@ StScrollBar StButton#hhandle:focus {
   padding-top: 2px;
   font-size: 9pt;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .calendar-change-month-back,
@@ -1280,7 +1280,7 @@ StScrollBar StButton#hhandle:focus {
 .calendar-nonwork-day {
   border-image: url("misc-assets/calendar-nonwork-day.svg") 6;
   border: none;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .calendar-today {
@@ -1296,7 +1296,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .calendar-week-number {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 9pt;
   font-weight: normal;
   width: 1.2em;
@@ -1800,7 +1800,7 @@ StScrollBar StButton#hhandle:focus {
 
 #LookingGlassDialog StLabel:last-child {
   padding-top: .4em;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 12pt;
 }
 
@@ -1884,7 +1884,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .weather-current-databox-captions {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   text-align: right;
 }
 
@@ -1893,7 +1893,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .weather-current-astronomy {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 9pt;
 }
 
@@ -2136,7 +2136,7 @@ StScrollBar StButton#hhandle:focus {
   font-size: 9pt;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .slingshot .sidebar .button:hover {
@@ -2475,7 +2475,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .menuitem-detail {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .popup-menu-item:active .menuitem-detail {
@@ -2664,7 +2664,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   padding: 4px 8px 3px 8px;
   font-size: 10pt;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   padding: 6px;
 }
 
@@ -2744,7 +2744,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .reddit-subtitle {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 10pt;
 }
 
@@ -2766,7 +2766,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   padding: 0 10px 10px 10px;
   spacing: 10px;
   font-size: 7pt;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* ===================================================================
@@ -2798,7 +2798,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 .calc-displayText-secondary {
   font-size: 9px;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
   text-align: right;
   padding-bottom: 8px;
 }
@@ -2809,7 +2809,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 .calc-displayText-status {
   font-size: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .calc-displayText-rpn {
