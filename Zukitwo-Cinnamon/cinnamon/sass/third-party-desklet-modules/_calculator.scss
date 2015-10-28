@@ -62,7 +62,7 @@
 
 
 .calc-button {
-    @include size(32px, 32px);
+    @include size(38px, 32px);
     @include btn-primary;
 
     &-padding { padding: 2px; }
