@@ -1,4 +1,10 @@
-// Grey text uses alpha values of white & black.
+// Accent colors
+$accent-primary: #3e7ab6;
+$accent-info:    #ff9c6a;
+$accent-danger:  #e86b6b;
+
+
+// Text colors
 $text-primary:   alpha(#000, .85);
 $text-secondary: alpha(#000, .45);
 $text-disabled:  alpha(#000, .15);
@@ -6,22 +12,18 @@ $text-disabled:  alpha(#000, .15);
 $text-primary-invert:   alpha(#fff, 1);
 $text-secondary-invert: alpha(#fff, .6);
 
+$text-info:   alpha(saturate(darken($accent-info, 17%), 100%), .9);
+$text-danger: alpha(saturate(darken($accent-danger, 20%), 100%), .7);
 
-// Grey icons use hex values.
+
+// Link colors
+$link: $accent-primary;
+
+
+// FIX Symbolic icons don't support transparency
 $icon-primary:   #2c2c2c;
 $icon-secondary: #777;
 $icon-disabled:  #ccc;
 
 $icon-primary-invert:   #fff;
 $icon-secondary-invert: #ccc;
-
-
-// Misc colors
-$accent: #3e7ab6;
-$accent-text: saturate(darken($accent, 20%), 20%);
-
-$info: #ff9c6a;
-$info-text: alpha(saturate(darken($info, 17%), 100%), .9);
-
-$warning: #e86b6b;
-$warning-text: alpha(saturate(darken($warning, 20%), 100%), .7);

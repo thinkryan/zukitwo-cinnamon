@@ -36,9 +36,9 @@
 }
 
 .panel-dummy {
-    background-color: alpha($accent, .8);
+    background-color: alpha($accent-primary, .8);
 
-    &:entered { background-color: darken($accent, 5%); }
+    &:entered { background-color: darken($accent-primary, 5%); }
 }
 
 

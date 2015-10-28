@@ -5,5 +5,5 @@
 .tile-preview, .tile-hud {
     background-color: alpha(#222, .6);
 
-    &.snap { background-color: alpha($accent, .8); }
+    &.snap { background-color: alpha($accent-primary, .8); }
 }
