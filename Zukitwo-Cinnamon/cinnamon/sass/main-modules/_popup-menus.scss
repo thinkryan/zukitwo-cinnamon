@@ -64,7 +64,6 @@
     }
 }
 
-
 .popup-sub-menu {
     border-image: url("background-assets/submenu-bg.svg") 9;
     box-shadow: none;
@@ -118,10 +117,10 @@
     }
 }
 
-.popup-combobox-item { spacing: 1em; }
+.popup-inactive-menu-item {
+    font-weight: normal;
+}
 
-.popup-device-menu-item { spacing: .5em; }
-
-.popup-inactive-menu-item,
-.popup-subtitle-menu-item,
-.popup-alternating-menu-item:alternate { font-weight: normal; }
+.popup-menu-item .popup-subtitle-menu-item {
+    font-weight: bold;
+}

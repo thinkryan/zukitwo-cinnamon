@@ -318,18 +318,12 @@ StScrollBar StButton#hhandle:focus {
   -slider-handle-radius: 0.5em;
 }
 
-.popup-combobox-item {
-  spacing: 1em;
-}
-
-.popup-device-menu-item {
-  spacing: .5em;
-}
-
-.popup-inactive-menu-item,
-.popup-subtitle-menu-item,
-.popup-alternating-menu-item:alternate {
+.popup-inactive-menu-item {
   font-weight: normal;
+}
+
+.popup-menu-item .popup-subtitle-menu-item {
+  font-weight: bold;
 }
 
 /* ===================================================================
