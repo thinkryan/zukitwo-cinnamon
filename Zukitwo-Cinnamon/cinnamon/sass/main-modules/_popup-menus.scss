@@ -79,7 +79,7 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-
+/* used in window scale mode (right-click window) */
 .popup-combo-menu {
     border-image: url("background-assets/popup.svg") 9;
     padding: .8em .2em;
@@ -100,17 +100,9 @@
     -slider-active-background-color: $accent-primary;
     -slider-active-border-color: $accent-primary;
     -slider-border-width: 0px;
-    -slider-handle-radius: 0.5em;
+    -slider-handle-radius: 0.4em;
 
     .popup-menu-item:active & {
-        height: 1em;
-        min-width: 15em;
-        -slider-height: 0.1em;
-        -slider-background-color: $text-primary-invert;
-        -slider-border-color: $text-primary-invert;
-        -slider-active-background-color: $accent-primary;
-        -slider-active-border-color: $accent-primary;
-        -slider-border-width: 0px;
         -slider-handle-radius: 0.5em;
     }
 }

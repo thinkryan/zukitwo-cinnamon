@@ -201,6 +201,33 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
+   ! Slider
+   ===================================================================*/
+.slider {
+  height: 1em;
+  min-width: 15em;
+  -slider-height: 0.1em;
+  -slider-background-color: white;
+  -slider-border-color: white;
+  -slider-active-background-color: #3e7ab6;
+  -slider-active-border-color: #3e7ab6;
+  -slider-border-width: 0px;
+  -slider-handle-radius: 0.4em;
+}
+
+.popup-menu-item:active .slider {
+  -slider-handle-radius: 0.5em;
+}
+
+/* ===================================================================
+   ! Popup Menus
+   ===================================================================*/
+.separator {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+}
+
+/* ===================================================================
    ! Popup Menus
    ===================================================================*/
 .popup-menu {
@@ -281,6 +308,7 @@ StScrollBar StButton#hhandle:focus {
   background-color: transparent;
 }
 
+/* used in window scale mode (right-click window) */
 .popup-combo-menu {
   border-image: url("background-assets/popup.svg") 9;
   padding: .8em .2em;
@@ -301,18 +329,10 @@ StScrollBar StButton#hhandle:focus {
   -slider-active-background-color: #3e7ab6;
   -slider-active-border-color: #3e7ab6;
   -slider-border-width: 0px;
-  -slider-handle-radius: 0.5em;
+  -slider-handle-radius: 0.4em;
 }
 
 .popup-menu-item:active .popup-slider-menu-item {
-  height: 1em;
-  min-width: 15em;
-  -slider-height: 0.1em;
-  -slider-background-color: white;
-  -slider-border-color: white;
-  -slider-active-background-color: #3e7ab6;
-  -slider-active-border-color: #3e7ab6;
-  -slider-border-width: 0px;
   -slider-handle-radius: 0.5em;
 }
 
