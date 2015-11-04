@@ -13,25 +13,6 @@
     font-size: 10pt;
     color: $text-primary;
 
-    &.multi-line-notification {/*!*/}
-
-    &-scrollview {
-        max-height: 100em;
-
-        > .top-shadow,
-        > .bottom-shadow {
-            height: 10em;
-        }
-
-        &:ltr > StScrollBar {
-            padding-left: 6px;
-        }
-
-        &:rtl > StScrollBar {
-            padding-right: 6px;
-        }
-    }
-
     CinnamonGenericContainer * {
         font-weight: normal;
         font-size: 9pt;
@@ -54,11 +35,11 @@
         font-weight: normal;
         font-size: 9pt;
         padding: .8em 0 .6em 0 ;
-        border-top: 1px #ddd;
+        border-top: 1px alpha(#000, .05);
     }
 
     &-actions {
-        spacing: 10px;
+        spacing: .2em;
     }
 }
 
@@ -76,7 +57,7 @@
    ===================================================================*/
 
 .notification-applet-padding {
-    padding: .6em .4em;
+    padding: .6em .8em;
 
     &:first-child {
         padding-top: 1.3em;
@@ -88,7 +69,17 @@
 }
 
 /* Notifs look inside the notification applet & other popups. */
-.popup-menu-content #notification {
-    border-image: url("background-assets/light-bg.svg") 7;
-    padding: .8em .8em .6em .8em;
+.popup-menu-content {
+    #notification {
+        border-image: url("background-assets/light-bg-marked-blue.svg") 7;
+        padding: .8em .8em .6em 1em;
+
+        &.multi-line-notification {
+            border-image: url("background-assets/light-bg-marked-pink.svg") 7;
+        }
+
+        &.notification-with-image {
+            border-image: url("background-assets/light-bg-marked-green.svg") 7;
+        }
+    }
 }
