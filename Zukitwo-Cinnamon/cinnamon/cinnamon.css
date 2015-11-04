@@ -229,6 +229,12 @@ StScrollBar StButton#hhandle:focus {
   color: #2c2c2c;
 }
 
+.popup-menu-arrow {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+}
+
 .popup-menu-item {
   padding: .4em 1.3em;
   spacing: .8em;
