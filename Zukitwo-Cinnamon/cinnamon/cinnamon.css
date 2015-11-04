@@ -1757,6 +1757,18 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
+   ! Window Quicky List applet
+   ===================================================================*/
+.window-sticky {
+  color: rgba(255, 98, 19, 0.9);
+  font-weight: bold;
+}
+
+.popup-menu-item:active .window-sticky {
+  color: white;
+}
+
+/* ===================================================================
    ! Hot corners icons
    ===================================================================*/
 #overview-corner {
