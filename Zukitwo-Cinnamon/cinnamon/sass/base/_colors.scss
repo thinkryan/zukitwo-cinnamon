@@ -1,5 +1,5 @@
 // Accent colors
-$accent-primary: #3e7ab6;
+$accent-primary: #6598cb;
 $accent-info:    #ff9c6a;
 $accent-danger:  #e86b6b;
 
@@ -17,7 +17,7 @@ $text-danger: alpha(saturate(darken($accent-danger, 20%), 100%), .7);
 
 
 // Link colors
-$link: $accent-primary;
+$link: alpha(saturate(darken($accent-primary, 17%), 100%), .9);
 
 
 // FIX Symbolic icons don't support transparency

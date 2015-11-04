@@ -7,12 +7,12 @@ stage {
 }
 
 .cinnamon-link {
-  color: #3e7ab6;
+  color: rgba(0, 109, 217, 0.9);
   font-weight: normal;
 }
 
 .cinnamon-link:hover {
-  color: #6699cb;
+  color: rgba(24, 139, 255, 0.9);
   text-decoration: underline;
 }
 
@@ -105,7 +105,7 @@ StScrollBar StButton#hhandle:focus {
   caret-color: rgba(0, 0, 0, 0.85);
   caret-size: 1px;
   selected-color: white;
-  selection-background-color: #3e7ab6;
+  selection-background-color: #6598cb;
 }
 
 .popup-menu StEntry StIcon,
@@ -208,9 +208,9 @@ StScrollBar StButton#hhandle:focus {
   min-width: 15em;
   -slider-height: 0.1em;
   -slider-background-color: white;
-  -slider-border-color: white;
-  -slider-active-background-color: #3e7ab6;
-  -slider-active-border-color: #3e7ab6;
+  -slider-border-color: transparent;
+  -slider-active-background-color: rgba(0, 109, 217, 0.9);
+  -slider-active-border-color: transparent;
   -slider-border-width: 0px;
   -slider-handle-radius: 0.4em;
 }
@@ -325,9 +325,9 @@ StScrollBar StButton#hhandle:focus {
   min-width: 15em;
   -slider-height: 0.1em;
   -slider-background-color: white;
-  -slider-border-color: white;
-  -slider-active-background-color: #3e7ab6;
-  -slider-active-border-color: #3e7ab6;
+  -slider-border-color: transparent;
+  -slider-active-background-color: rgba(0, 109, 217, 0.9);
+  -slider-active-border-color: transparent;
   -slider-border-width: 0px;
   -slider-handle-radius: 0.4em;
 }
@@ -390,11 +390,11 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .panel-dummy {
-  background-color: rgba(62, 122, 182, 0.8);
+  background-color: rgba(101, 152, 203, 0.8);
 }
 
 .panel-dummy:entered {
-  background-color: #386da3;
+  background-color: #528bc5;
 }
 
 /* This styles the systray items */
@@ -504,7 +504,7 @@ StScrollBar StButton#hhandle:focus {
   selected-color: white;
   caret-color: white;
   caret-size: 1px;
-  selection-background-color: #3e7ab6;
+  selection-background-color: #6598cb;
 }
 
 .workspace-close-button {
@@ -1520,7 +1520,7 @@ StScrollBar StButton#hhandle:focus {
   height: .5em;
   -slider-height: .4em;
   -slider-background-color: #e4e4e4;
-  -slider-active-background-color: #3e7ab6;
+  -slider-active-background-color: #6598cb;
   -slider-handle-radius: 0;
 }
 
@@ -1792,7 +1792,7 @@ StScrollBar StButton#hhandle:focus {
 
 .osd-window .level {
   height: 5px;
-  color: #3e7ab6;
+  color: #6598cb;
 }
 
 .workspace-osd {
@@ -1843,7 +1843,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .tile-preview.snap, .tile-hud.snap {
-  background-color: rgba(62, 122, 182, 0.8);
+  background-color: rgba(101, 152, 203, 0.8);
 }
 
 /* ===================================================================
@@ -1868,7 +1868,7 @@ StScrollBar StButton#hhandle:focus {
   background-gradient-direction: vertical;
   background-gradient-start: rgba(255, 255, 255, 0);
   background-gradient-end: rgba(255, 255, 255, 0);
-  color: #3e7ab6;
+  color: rgba(0, 109, 217, 0.9);
   text-decoration: underline;
 }
 
@@ -2401,7 +2401,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 /* Window capture mode */
 .capture-outline-background {
-  background-color: rgba(62, 122, 182, 0.8);
+  background-color: rgba(101, 152, 203, 0.8);
 }
 
 .capture-outline-frame {
@@ -2619,7 +2619,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .sticky-button-selected * {
-  color: #3e7ab6;
+  color: #6598cb;
 }
 
 .sticky-button-box {
@@ -2695,7 +2695,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   caret-color: rgba(0, 0, 0, 0.85);
   caret-size: 1px;
   selected-color: white;
-  selection-background-color: #3e7ab6;
+  selection-background-color: #6598cb;
 }
 
 .sticky-text-box StIcon {
@@ -2728,7 +2728,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   selected-color: white;
   caret-color: rgba(0, 0, 0, 0.85);
   caret-size: 1px;
-  selection-background-color: #3e7ab6;
+  selection-background-color: #6598cb;
 }
 
 /* ===================================================================
@@ -2862,7 +2862,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .calc-navigation-button:hover .calc-navigation-icon {
-  color: #3e7ab6;
+  color: #6598cb;
 }
 
 .calc-button {
@@ -2990,7 +2990,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .grid-preview:activate {
-  background-color: rgba(62, 122, 182, 0.5);
+  background-color: rgba(101, 152, 203, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.45);
   border-radius: 2px;
 }
