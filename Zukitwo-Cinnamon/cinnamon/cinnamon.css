@@ -705,6 +705,13 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(0, 0, 0, 0.15);
 }
 
+.notification-button:grayed StIcon, .notification-button:disabled StIcon, .notification-button:insensitive StIcon,
+.notification-icon-button:grayed StIcon,
+.notification-icon-button:disabled StIcon,
+.notification-icon-button:insensitive StIcon {
+  color: #aaa;
+}
+
 .notification-button > StIcon,
 .notification-icon-button > StIcon {
   width: 16px;
@@ -923,6 +930,10 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(0, 0, 0, 0.15);
 }
 
+.modal-dialog-button:grayed StIcon, .modal-dialog-button:disabled StIcon, .modal-dialog-button:insensitive StIcon {
+  color: #aaa;
+}
+
 .modal-dialog-button > StIcon {
   width: 16px;
   height: 16px;
@@ -1100,6 +1111,10 @@ StScrollBar StButton#hhandle:focus {
 .keyboard-key:grayed, .keyboard-key:disabled, .keyboard-key:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(0, 0, 0, 0.15);
+}
+
+.keyboard-key:grayed StIcon, .keyboard-key:disabled StIcon, .keyboard-key:insensitive StIcon {
+  color: #aaa;
 }
 
 .keyboard-key > StIcon {
@@ -1450,6 +1465,10 @@ StScrollBar StButton#hhandle:focus {
 .sound-player-overlay StButton:grayed, .sound-player-overlay StButton:disabled, .sound-player-overlay StButton:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(0, 0, 0, 0.15);
+}
+
+.sound-player-overlay StButton:grayed StIcon, .sound-player-overlay StButton:disabled StIcon, .sound-player-overlay StButton:insensitive StIcon {
+  color: #aaa;
 }
 
 .sound-player-overlay StButton > StIcon {
@@ -2916,6 +2935,10 @@ StBoxLayout.applet-box.desktop-capture StBin {
 .calc-button:grayed, .calc-button:disabled, .calc-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(0, 0, 0, 0.15);
+}
+
+.calc-button:grayed StIcon, .calc-button:disabled StIcon, .calc-button:insensitive StIcon {
+  color: #aaa;
 }
 
 .calc-button > StIcon {
