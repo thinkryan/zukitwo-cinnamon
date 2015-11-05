@@ -48,6 +48,10 @@
         &:insensitive {
             font-weight: normal;
             color: $text-disabled;
+
+            .popup-menu-icon, StIcon {
+                color: $icon-disabled;
+            }
         }
     }
 
